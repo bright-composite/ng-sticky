@@ -57,7 +57,8 @@ var NgStickyDirective = (function () {
 }());
 NgStickyDirective.decorators = [
     { type: Directive, args: [{
-                selector: '[ng-sticky]'
+                selector: '[ng-sticky]',
+                exportAs: 'ng-sticky'
             },] },
 ];
 /**
